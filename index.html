@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <script src="script.js"></script>
-  <title>Document</title>
+  <title>Dungeon Helper</title>
 </head>
 <body>
+  <div class="wrap">
+    <img class="background" src="https://i.hizliresim.com/lq5Rar.jpg">
+  
   <section id="container">
-
-    <div class="room" id="room"><button ></button></div>
+    <button id="RESET" onclick="reset()">RESET</button>
+    <div class="room"><button></button></div>
     <div class="tunnel"></div>
-    <div class="room" id="room"><button></button></div>
+    <div class="room"><button></button></div>
     <div class="tunnel blocked"></div>
-    <div class="room room-3"><button></button></div>
+    <div class="room"><button></button></div>
     <div class="tunnel"></div>
-    <div class="room room-4"><button></button></div>
+    <div class="room"><button></button></div>
 
     <div class="tunnel-vertical"></div>
     <div class="tunnel-invis"></div>
@@ -82,5 +85,8 @@
     <div class="tunnel"></div>
     <div class="room room-20"><button></button></div>
   </section>
+
+  </div>
+  <script>getButtonId();</script>
 </body>
 </html>
